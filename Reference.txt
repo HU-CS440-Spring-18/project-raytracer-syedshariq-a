@@ -1,0 +1,8 @@
+Everything is pretty much a copy paste of the code from the book Ray Tracing from the Ground Up by Kevin Suffern. Read til Chapter 3.
+
+It's still a work in progress and isn't complete. I needed to integrate KDTrees, however not enough time left.
+
+Currently the code first builds the scene in memory (hence the use of shared pointers, they increase the performance a little) 
+And then does Ray Tracing on it. That's why it's super slow.
+
+For new scenes the World::build function needs to be created/altered accordingly.
